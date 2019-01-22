@@ -1,0 +1,47 @@
+URxvt.perl-ext-common: resize-font
+
+! Arc Dark color scheme
+! by fsckoff (http://wr3tch.com)
+! based on the arc dark wm/de themes
+
+! ------------------------------------------------------------------------------
+*background:#2f343f
+*foreground: #d7d7d7
+*cursorcolor: #c7c7c7
+*highlighttextcolor: #383c4a
+*highlightcolor: #c1ddff
+! black
+*.color0:       #383c4a
+*.color8:       #7b8793
+! red
+*.color1:       #e28d9d
+*.color9:       #e28d9d
+! green
+*.color2:       #9bff99
+*.color10:      #9bff99
+! yellow
+*.color3:       #df936c
+*.color11:      #df936c
+! blue
+*.color4:       #5294e2
+*.color12:      #5294e2
+! magenta
+*.color5:       #f74771
+*.color13:      #f74771
+! cyan
+*.color6:       #5cfffc
+*.color14:      #5cfffc
+! white
+*.color7:       #d7d7d7
+*.color15:      #d7d7d7
+
+
+
+URxvt.scrollBar: false
+URxvt.font: xft:Iosevka:Regular:size=14
+
+!manage font size
+URxvt.keysym.C-S-plus: font-size:increase
+URxvt.keysym.C-KP_Add: font-size:increase
+URxvt.keysym.C-S-underscore: font-size:decrease
+URxvt.keysym.C-KP_Subtract: font-size:decrease
