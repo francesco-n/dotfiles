@@ -96,7 +96,7 @@ ramp-capacity-3 = 
 ramp-capacity-4 = 
 
 
-format-charghing = <animation-charging> <label-charging>
+format-charging = <animation-charging> <label-charging>
 
 label-charging = %percentage%%
 
