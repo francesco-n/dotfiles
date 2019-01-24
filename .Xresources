@@ -38,7 +38,10 @@ URxvt.perl-ext-common: resize-font
 
 
 URxvt.scrollBar: false
-URxvt.font: xft:Iosevka:Regular:size=14
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: true
+
+URxvt.font: xft:Iosevka:Regular:size=14 
 
 !manage font size
 URxvt.keysym.C-S-plus: font-size:increase

@@ -8,6 +8,6 @@
 alias ls='ls --color=auto'
 alias neof='neofetch && bash'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias pls='sudo'
 
-export PS1=' \e[32m\u \W \e[m'
-
+export PS1=' \e[32m\u: \W | \e[m'

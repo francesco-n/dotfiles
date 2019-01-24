@@ -211,6 +211,8 @@ bindsym $mod+Shift+f exec firefox
 bindsym $mod+minus exec --no-startup-id redshift -O 6000K
 bindsym $mod+plus exec --no-startup-id redshift -o -x
 
+#screenshots
+bindsym $mod+Shift+s exec --no-startup-id deepin-screenshot
 
 #Audio and brightness controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+

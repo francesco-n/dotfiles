@@ -1,10 +1,10 @@
+xdotool mousemove 2000 0
 i3-msg 'workspace '1: ';
 layout splitv;
 exec sh ~/.scripts/clock.sh'
 
 sleep .1
-#i3-msg 'exec sh ~/.scripts/cowsay.sh'
-i3-msg 'exec urxvt -e asciiquarium'
+i3-msg 'exec sh ~/.scripts/cowsay.sh'
 sleep .1
 i3-msg 'exec firefox'
 sleep .5

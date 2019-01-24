@@ -4,8 +4,8 @@ Simple repository for keeping track of my dotfiles.
 I picked the setup from [here](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/): it's simple and it makes a lot of sense.
 
 Here are some screenshots
-![alt text](https://i.imgur.com/K2Au3Z8.png)
-![alt text](https://i.imgur.com/No5JZ0b.png)
+![alt text](https://i.imgur.com/XLbaukc.png)
+![alt text](https://i.imgur.com/CYSmM7W.png)
 
 
 ## Apps
@@ -13,7 +13,7 @@ List of apps visible in the screenshots:
 
 Window manager: [i3-gaps](https://github.com/Airblader/i3)
 
-Compositor: [compton](https://wiki.archlinux.org/index.php/Compton#Installation)
+Compositor: [compton (tryone144 fork)](https://github.com/tryone144/compton)
 
 Status bar: [polybar](https://github.com/jaagr/polybar)
 

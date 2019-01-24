@@ -8,32 +8,19 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
+
 
 if [ -f $sysmodmap ]; then
     xmodmap $sysmodmap
 fi
 
+
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
+
 
 if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
@@ -48,7 +35,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+#set keymap to italian and swaps caps lock to escape
 setxkbmap -option caps:swapescape it
 
+#starts i3
 exec i3
-#exec startxfce4
