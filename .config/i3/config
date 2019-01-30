@@ -206,5 +206,5 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Headphone toggle & amixer 
 exec_always --no-startup-id nitrogen --restore
 
 #exec applications
-exec --no-startup-id sh ~/.scripts/terminals.sh 
+exec --no-startup-id firefox
 
