@@ -188,6 +188,9 @@ bindsym $mod+plus exec --no-startup-id redshift -o -x
 #screenshots
 bindsym $mod+Shift+s exec --no-startup-id deepin-screenshot
 
+#thunar
+bindsym $mod+Shift+t exec --no-startup-id thunar
+
 #resizing made easier
 bindsym $mod+Ctrl+plus resize grow width 5 px or 5 ppt
 bindsym $mod+Ctrl+minus resize shrink width 5 px or 5 ppt
