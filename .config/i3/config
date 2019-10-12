@@ -12,6 +12,7 @@
 set $mod Mod4
 
 for_window[class="^.*"] border pixel 1
+for_window[class="latex"] border pixel 0
 
 gaps inner 30 
 gaps outer 20
@@ -185,11 +186,29 @@ bindsym $mod+Shift+f exec firefox
 bindsym $mod+minus exec --no-startup-id redshift -O 6000K
 bindsym $mod+plus exec --no-startup-id redshift -o -x
 
-#screenshots
-bindsym $mod+Shift+s exec --no-startup-id deepin-screenshot
-
 #thunar
 bindsym $mod+Shift+t exec --no-startup-id thunar
+
+#bitwarden
+bindsym $mod+Shift+b exec --no-startup-id " PLUCKEYE_AA67=1 ~/Bitwarden.AppImage"
+
+#joplin
+bindsym $mod+Shift+n exec --no-startup-id "PLUCKEYE_AA67=1 joplin-desktop"
+
+#discord
+bindsym $mod+Shift+d exec --no-startup-id "PLUCKEYE_AA67=1 discord"
+
+#utopia
+bindsym $mod+Shift+u exec --no-startup-id "/opt/utopia/messenger/Utopia"
+
+#latex editor
+bindsym $mod+Ctrl+l exec --no-startup-id sh ~/.dmenuscripts/latex
+
+#scripts
+bindsym $mod+Shift+s exec --no-startup-id sh ~/.dmenuscripts/.scriptsdmenu
+
+#shutdown
+bindsym $mod+Ctrl+s exec --no-startup-id sh ~/.scripts/shutdown
 
 #resizing made easier
 bindsym $mod+Ctrl+plus resize grow width 5 px or 5 ppt

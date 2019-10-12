@@ -42,7 +42,7 @@ URxvt.cursorBlink: true
 URxvt.cursorUnderline: true
 
 URxvt.font: xft:Iosevka:Regular:size=14 
-
+!URxvt.font: xft:ElianScript:size=30
 !manage font size
 URxvt.keysym.C-S-plus: font-size:increase
 URxvt.keysym.C-KP_Add: font-size:increase

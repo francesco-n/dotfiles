@@ -36,7 +36,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 #set keymap to italian and swaps caps lock to escape
-setxkbmap -option caps:swapescape it &
+setxkbmap -option caps:swapescape &
 
 #starts i3
 udiskie &

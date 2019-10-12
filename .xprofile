@@ -1,2 +1,2 @@
-setxkbmap -option caps:swapescape it &
+setxkbmap -option caps:swapescape &
 udiskie &
