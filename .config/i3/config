@@ -180,7 +180,7 @@ bindsym $mod+Shift+v exec --no-startup-id sh ~/.scripts/vm-stop.sh
 bindsym $mod+Shift+m exec --no-startup-id sh ~/.scripts/terminals.sh
 
 #firefox
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+f exec tor-browser
 
 #redshift
 bindsym $mod+minus exec --no-startup-id redshift -O 6000K
@@ -228,5 +228,4 @@ bindsym XF86AudioMute exec --no-startup-id amixer set Headphone toggle & amixer 
 exec_always --no-startup-id nitrogen --restore
 
 #exec applications
-exec --no-startup-id firefox
 

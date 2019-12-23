@@ -25,6 +25,11 @@ primary = #ffb52a
 secondary = #e60053
 
 [bar/simplebar]
+tray-position = right
+tray-padding = 0 
+;tray-transparent = true
+
+wm-restack = i3
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 35
@@ -52,7 +57,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = FontAwesome:size=12;0
 
 modules-left = i3
-modules-right = battery pulseaudio wlan date 
+modules-right = battery pulseaudio date 
 
 ;tray-position = center
 
@@ -108,7 +113,7 @@ animation-charging-4 = 
 
 animation-charging-framerate = 750
 
-[module/wlan]
+[module/wireless-network]
 type = internal/network
 interface = wlp2s0
 interval = 3.0
